@@ -15,7 +15,7 @@
 }
 
 .b {
-    background-image: url(Images/castlebackground.jpg); /* Use your desired background image here */
+    background-image: url("castlebackground.jpg"); /* Use your desired background image here */
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -34,7 +34,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url(Images/castlebackground.jpg); /* Use the same image for start page if you want */
+    background-image: url("castlebackground.jpg"); /* Use the same image for start page if you want */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -122,7 +122,7 @@
     position: absolute;
     width: 100%;
     height: 100vh;
-    background-image: url("Images/gameover.jpg");
+    background-image: url("gameover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -413,4 +413,5 @@
     0% { transform: translateY(0);}
     100% { transform: translateY(-12px);}
 }
+
 /* ...existing code... */
